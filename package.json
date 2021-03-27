@@ -13,7 +13,8 @@
     "test": "echo 'Error: no test specified' && exit 1",
     "snyk:protect": "snyk protect",
     "snyk:test": "snyk test",
-    "prepare": "npm run snyk:protect"
+    "prepare": "npm run snyk:protect",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
